@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Task_uriCompletate</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.3.0" />
+    <PackageReference Include="Google.Apis.Customsearch.v1" Version="1.49.0.2084" />
+    <PackageReference Include="GoogleApi" Version="4.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Uno.UI" Version="4.4.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GISearchClient">
+      <HintPath>D:\dezinstaleaza!\GISearchClient_Source\GISearchClient.exe</HintPath>
+    </Reference>
+    <Reference Include="GoogleSearchAPI">
+      <HintPath>D:\dezinstaleaza!\GISearchClient_Source\GoogleSearchAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\dezinstaleaza!\GISearchClient_Source\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
